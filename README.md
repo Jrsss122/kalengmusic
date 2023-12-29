@@ -3,9 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/0f758321a92a9428a6c48.jpg">
-</p>
-
+  <img src="https://te.legra.ph/file/0f758321a92a94
 <p align="center">
 <a href="https://github.com/Noob-Mukesh/MukeshMusic/stargazers"><img src="https://img.shields.io/github/stars/Noob-Mukesh/MukeshMusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/Noob-Mukesh/MukeshMusic/network/members"> <img src="https://img.shields.io/github/forks/Noob-Mukesh/MukeshMusic?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
