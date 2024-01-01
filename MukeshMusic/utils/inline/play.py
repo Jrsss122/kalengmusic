@@ -85,6 +85,8 @@ def telegram_markup_timer(_, chat_id, played, dur):
         bar = "────────◯──"
     elif 80 <= umm < 95:
         bar = "─────────◯─"
+    else:
+        bar = "──────────◯"
 
     buttons = [
         [
