@@ -2,7 +2,6 @@
 # dibuat oleb: https://t.me/NorSodikin
 
 from pykeyboard import InlineKeyboard
-from pyrogram.enums import ChatType
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import InlineKeyboardButton
 
