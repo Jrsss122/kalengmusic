@@ -25,6 +25,7 @@ from MukeshMusic.utils.inline.play import (livestream_markup,
 from MukeshMusic.utils.inline.playlist import botplaylist_markup
 from MukeshMusic.utils.logger import play_logs
 from MukeshMusic.utils.stream.stream import stream
+from MukeshMusic.sub import SUB_FOR_SUB
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
@@ -36,6 +37,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
     & ~filters.edited
     & ~BANNED_USERS
 )
+@SUB_FOR_SUB
 @PlayWrapper
 async def play_commnd(
     client,
