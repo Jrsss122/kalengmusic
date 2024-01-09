@@ -1,3 +1,6 @@
+# module ini di ambil dari repo bot https://t.me/FsubPremBot
+# dibuat oleb: https://t.me/NorSodikin
+
 from pykeyboard import InlineKeyboard
 from pyrogram.enums import ChatType
 from pyrogram.errors import UserNotParticipant
