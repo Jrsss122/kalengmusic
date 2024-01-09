@@ -11,7 +11,7 @@ def SUB_FOR_SUB(func):
     async def function(client, message):
         user = message.from_user
         rpk = f"<a href='tg://user?id={user.id}'>{user.first_name} {user.last_name or ''}</a>"
-        vars = ""  # isi id gc atau username yg mau di pakai buat join member (bisa lebih dari 1 fsub nya)
+        vars = "-1002009974125"  # isi id gc atau username yg mau di pakai buat join member (bisa lebih dari 1 fsub nya)
         if not vars:
             return await func(client, message)
         try:
