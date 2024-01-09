@@ -23,14 +23,9 @@ def SUB_FOR_SUB(func):
             for x in str(vars).split():
                 chat = await client.get_chat(int(x))
                 invite_link = chat.invite_link
-                chat_type = chat.type
-                if chat_type in (ChatType.GROUP, ChatType.SUPERGROUP):
-                    button_text = "ɢʀᴏᴜᴘ"
-                elif chat_type == ChatType.CHANNEL:
-                    button_text = "ᴄʜᴀɴɴᴇʟ"
                 keyboard.append(
                     InlineKeyboardButton(
-                        text=f"• ᴊᴏɪɴ {button_text} •",
+                        text=f"• join dahulu •",
                         url=invite_link,
                     )
                 )
